@@ -139,8 +139,6 @@ body.curiosidades #curiosidades p {
     }
 }
 
-
-
 body.estadio {
     background-color: #FCF7F7;
     color: #2c2c2c;
@@ -438,19 +436,19 @@ body.historia #historia p:first-of-type {
 }
 
 body.idolos {
-    background: linear-gradient(135deg, #dc1a1a 0%, #dc1a1a 100%);
-    color: #3d3d3d;
+    background: linear-gradient(135deg, #dc1a1a 0%, #754646 100%);
+    color: #191818;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
 }
 
 body.idolos .navbar {
-    background-color: #ffffff !important;
+    background-color: #f6f6f6 !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 body.idolos .navbar-brand {
-    color: #fa0202 !important;
+    color: #000000 !important;
     font-weight: 600;
     font-size: 1.3rem;
 }
@@ -471,7 +469,7 @@ body.idolos .nav-link:hover {
 
 body.idolos .nav-link.active {
     color: #fff !important;
-    background-color: #a05c5c;
+    background-color: #e0e0e0;
     border-radius: 4px;
 }
 
@@ -479,13 +477,13 @@ body.idolos section#Ídolos {
     max-width: 900px;
     margin: 50px auto;
     padding: 40px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(235, 133, 133, 0.85);
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 body.idolos section#Ídolos h2 {
-    color: #c21313;
+    color: #000000b7;
     font-size: 2.5rem;
     margin-bottom: 20px;
     text-align: center;
@@ -508,10 +506,10 @@ body.idolos section#Ídolos ul {
 }
 
 body.idolos section#Ídolos li {
-    background-color: #faf6f1;
+    background-color: #ffffff;
     margin-bottom: 20px;
     padding: 20px;
-    border-left: 5px solid #d4a574;
+    border-left: 5px solid #00000000;
     border-radius: 8px;
     line-height: 1.8;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -519,18 +517,18 @@ body.idolos section#Ídolos li {
 
 body.idolos section#Ídolos li:hover {
     transform: translateX(5px);
-    box-shadow: 0 6px 15px rgba(212, 165, 116, 0.2);
+    box-shadow: 0 6px 15px rgba(212, 166, 116, 0);
 }
 
 body.idolos section#Ídolos li strong {
-    color: #8b6f47;
+    color: #000000;
     font-size: 1.15rem;
 }
 
 body.plantilla {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: #f9f9f9;
+    background: #9c090900;
     color: #333;
 }
 
