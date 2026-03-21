@@ -76,13 +76,13 @@ li:hover {
 }
 
 body.curiosidades {
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    background: linear-gradient(135deg, #f80000, #b92b2b);
     color: #fff;
 }
 
 body.curiosidades .navbar {
     background: linear-gradient(90deg, #c80e00, #8b0a00) !important;
-    box-shadow: 0 4px 15px rgba(200, 14, 0, 0.3);
+    box-shadow: 0 4px 15px rgb(200, 13, 0);
 }
 
 body.curiosidades .navbar-brand {
@@ -97,7 +97,7 @@ body.curiosidades .nav-link {
 }
 
 body.curiosidades .nav-link:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(255, 255, 255);
     color: #ffeb3b !important;
 }
 
@@ -445,12 +445,12 @@ body.idolos {
 }
 
 body.idolos .navbar {
-    background-color: #d4a574 !important;
+    background-color: #ffffff !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 body.idolos .navbar-brand {
-    color: #fff !important;
+    color: #fa0202 !important;
     font-weight: 600;
     font-size: 1.3rem;
 }
