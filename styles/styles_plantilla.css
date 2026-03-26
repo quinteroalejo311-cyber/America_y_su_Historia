@@ -1,0 +1,75 @@
+body.plantilla {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #8B0000, #DC143C);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #9c090900;
+    color: #333;
+}
+
+body.plantilla {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #9c090900;
+    color: #333;
+}
+
+body.plantilla header {
+    background: linear-gradient(to right, #dc143c, #ff4500);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+body.plantilla section {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+body.plantilla h2 {
+    color: #dc143c;
+    border-bottom: 2px solid #dc143c;
+    padding-bottom: 0.5rem;
+}
+
+body.plantilla table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body.plantilla th,
+body.plantilla td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+body.plantilla th {
+    background: linear-gradient(to right, #dc143c, #ff4500);
+    color: white;
+}
+
+body.plantilla .verde {
+    background: white;
+    color: black;
+}
+
+body.plantilla .rojo {
+    background: white;
+    color: black;
+}
+
+body.plantilla caption {
+    font-weight: bold;
+    margin: 1rem 0;
+    color: #dc143c;
+}

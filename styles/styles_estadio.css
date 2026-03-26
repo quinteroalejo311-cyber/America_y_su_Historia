@@ -1,0 +1,49 @@
+body.estadio {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #8B0000, #DC143C);
+    color: white;
+    text-align: center;
+    background-color: #FCF7F7;
+    color: #2c2c2c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+body.estadio #estadio {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #FFFFFF, rgba(244, 229, 229, 0.3));
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(196, 30, 58, 0.1);
+}
+
+body.estadio #estadio h2 {
+    color: #C41E3A;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    border-left: 5px solid #8B1538;
+    padding-left: 15px;
+}
+
+body.estadio #estadio h2:first-child {
+    margin-top: 0;
+    font-size: 2.5rem;
+    border-left: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+body.estadio #estadio p {
+    color: #2c2c2c;
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+    background-color: rgba(196, 30, 58, 0.03);
+    padding: 20px;
+    border-radius: 8px;
+    border-right: 3px solid rgba(196, 30, 58, 0.2);
+    text-align: justify;
+}

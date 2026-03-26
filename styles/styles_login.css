@@ -1,0 +1,68 @@
+body.login {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #8B0000, #DC143C);
+    color: white;
+    text-align: center;
+    --rojo-america: #c41e3a;
+    --blanco-america: #ffffff;
+    --amarillo-america: #ffd700;
+    background: linear-gradient(135deg, var(--rojo-america) 0%, #8b0000 100%);
+    color: var(--blanco-america);
+    font-family: Arial, sans-serif;
+}
+
+body.login h1 {
+    text-align: center;
+    color: var(--amarillo-america);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+body.login form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid var(--amarillo-america);
+}
+
+body.login label {
+    color: var(--amarillo-america);
+    font-weight: bold;
+}
+
+body.login input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 2px solid var(--amarillo-america);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+body.login button {
+    background: var(--amarillo-america);
+    color: var(--rojo-america);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+body.login button:hover {
+    background: var(--blanco-america);
+    transform: scale(1.05);
+}
+
+body.login #loginMessage {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}

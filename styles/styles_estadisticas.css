@@ -1,0 +1,78 @@
+body.estadisticas {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #8B0000, #DC143C);
+    color: white;
+    text-align: center;
+    background: linear-gradient(135deg, #c50a0a 0%, #c50a0a 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    min-height: 100vh;
+}
+
+body.estadisticas section {
+    padding: 3rem 0;
+}
+
+body.estadisticas .Estadisticas {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgb(0, 0, 0);
+    border-left: 6px solid #00000000;
+}
+
+body.estadisticas .Estadisticas h2 {
+    color: #000000;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.8rem;
+    display: inline-block;
+}
+
+body.estadisticas .Estadisticas p {
+    color: #000000;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+body.estadisticas .table {
+    margin-top: 1.5rem;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgb(0, 0, 0);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+body.estadisticas .table thead {
+    background: linear-gradient(90deg, #000000 0%, #000000 100%);
+    color: rgb(0, 0, 0);
+}
+
+body.estadisticas .table thead th {
+    border: none;
+    font-weight: 600;
+    padding: 1.2rem 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+body.estadisticas .table tbody th {
+    font-weight: 600;
+    color: #000000;
+    padding: 1rem;
+    border: none;
+}
+
+body.estadisticas .table tbody td {
+    padding: 1rem;
+    color: #000000;
+    line-height: 1.6;
+}
