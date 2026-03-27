@@ -1,58 +1,64 @@
 body.login {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, #8B0000, #DC143C);
-    color: white;
-    text-align: center;
     --rojo-america: #c41e3a;
+    --rojo-oscuro: #8b0000;
     --blanco-america: #ffffff;
     --amarillo-america: #ffd700;
-    background: linear-gradient(135deg, var(--rojo-america) 0%, #8b0000 100%);
-    color: var(--blanco-america);
+    --black-america: #000000;
+
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    background: linear-gradient(135deg, var(--rojo-america) 0%, var(--rojo-oscuro) 100%);
+    color: var(--blanco-america);
 }
 
 body.login h1 {
+    margin: 40px 0;
     text-align: center;
+    font-weight: bold;
     color: var(--amarillo-america);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin: 40px 0;
-    font-weight: bold;
 }
 
 body.login form {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 30px;
-    border-radius: 10px;
     max-width: 400px;
     margin: 0 auto;
-    border: 2px solid var(--amarillo-america);
-}
+    padding: 30px;
+    border-radius: 10px;
 
-body.login label {
-    color: var(--amarillo-america);
-    font-weight: bold;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid var(--amarillo-america);
 }
 
 body.login input {
     width: 100%;
     padding: 10px;
-    margin: 10px 0 20px 0;
-    border: 2px solid var(--amarillo-america);
+    margin: 10px 0 20px;
     border-radius: 5px;
+
+    border: 2px solid var(--amarillo-america);
     background: rgba(255, 255, 255, 0.9);
 }
 
+body.login input:focus {
+    outline: none;
+    border-color: var(--rojo-america);
+    box-shadow: 0 0 8px var(--amarillo-america);
+}
+
 body.login button {
-    background: var(--amarillo-america);
-    color: var(--rojo-america);
+    width: 100%;
     padding: 12px 30px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
-    width: 100%;
+
+    background: var(--amarillo-america);
+    color: var(--black-america);
+
     transition: all 0.3s ease;
 }
 
@@ -62,7 +68,33 @@ body.login button:hover {
 }
 
 body.login #loginMessage {
-    text-align: center;
     margin-top: 20px;
+    text-align: center;
     font-weight: bold;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #c41e3a 0%, #8b1528 100%) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffed4e !important;
+    text-shadow: 0 0 8px rgba(255, 237, 78, 0.5);
+}
+
+.navbar-toggler {
+    border-color: white !important;
 }
