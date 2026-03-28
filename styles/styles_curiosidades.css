@@ -39,7 +39,8 @@ body.curiosidades #curiosidades p {
 .tifo_del_escudo {
     width: 500px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 3%;
+    padding: 10px;
 }
 
 #curiosidades h2 {
