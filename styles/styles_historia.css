@@ -10,13 +10,15 @@ body.historia {
 .jugadores {
     width: 500px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 3%;
+    padding: 10px;
 }
 
 .Buseta {
     width: 600px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 3%;
+    padding: 10px;
 }
 
 body.historia #historia {
